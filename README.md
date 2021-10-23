@@ -27,7 +27,7 @@
     ```
   3. Установить Tesseract OSR: https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v5.0.0-alpha.20210811.exe
   4. Переместить **Tesseract-OCR** каталог в директорию с проектом
-  5. Устновить языковые пакеты **Natasha**:
+  5. Скачать языковые пакеты **Natasha**:
     https://storage.yandexcloud.net/natasha-navec/packs/navec_hudlit_v1_12B_500K_300d_100q.tar
     https://storage.yandexcloud.net/natasha-slovnet/packs/slovnet_ner_news_v1.tar
   6. Поместить языковые пакеты в директорию с проектом
