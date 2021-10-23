@@ -1,1 +1,20 @@
-# depersonalization
+# Автоматизированный алгоритм обезличивания данных
+# Команда Legaltech
+## Модель для задачи конкурса Лидеры Цифровой Трансформации
+Модель алгоритма автоматизированной обработки и обезличивания персональных данных (ФИО) в .pdf файлов и .jpeg изображений.
+
+# Структура
+Алгоритм модели представляет собой структуру состоящую из следующих блоков:
+  1. Чтение файла
+  2. Обработка .pdf-файла (преобразование файла в .jpeg изображения)
+  3. Применеие алгоритма Optical Character Recognition (OCR) для распознавания текста с изображения
+  4. Применеие алгоритма Named-entity recognition (NER) для определения именованных сущеностей (конкретно - ФИО)
+  5. Размытие обнаруженной информации на исходном изображении
+  6. Сохранение полученных изображений
+
+# Технологический стек
+Для данной задачи были использованы следующие **Open Source** решения:
+  1. Tesseract OCR - https://github.com/tesseract-ocr/tesseract
+  2. Navec и Slovnet (в рамках рускоязычного NLP инструмента Natasha): 
+     https://github.com/natasha/navec (wget https://storage.yandexcloud.net/natasha-navec/packs/navec_hudlit_v1_12B_500K_300d_100q.tar - ссылка для скачивания предобученных эмбедингов)
+     https://github.com/natasha/slovnet (wget https://storage.yandexcloud.net/natasha-slovnet/packs/slovnet_ner_news_v1.tar - ссылка для скачивания NER алгоритма)
