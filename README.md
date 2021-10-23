@@ -26,10 +26,14 @@
     pip install -r requirements.txt
     ```
   3. Установить Tesseract OSR: https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v5.0.0-alpha.20210811.exe
-  4. Переместить **Tesseract-OCR** каталог в директорию с кодом
+  4. Переместить **Tesseract-OCR** каталог в директорию с проектом
   5. Устновить языковые пакеты **Natasha**:
     https://storage.yandexcloud.net/natasha-navec/packs/navec_hudlit_v1_12B_500K_300d_100q.tar
     https://storage.yandexcloud.net/natasha-slovnet/packs/slovnet_ner_news_v1.tar
-  6. Поместить языковые пакеты в директорию с кодом
-  7. Создать папку output (туда будет выгружен итоговый результат работы алгоритма)
+  6. Поместить языковые пакеты в директорию с проектом
+  7. Распокавать архив poppler в директорию с проектом
+  8. Создать папку output (туда будет выгружен итоговый результат работы алгоритма)
+  
+# Дополнительные сведения
+Файл poppler необходим для преобразования .pdf файла в .jpeg 
   
